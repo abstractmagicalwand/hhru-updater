@@ -1,0 +1,15 @@
+{
+  "url": {
+    "main": "https://hh.ru/",
+    "resume": "<your_resume>"
+  },
+  "password": "<your_password>",
+  "email": "<your_email>",
+  "selectors": {
+    "email": "form > label:nth-child(1) > input",
+    "password": "form > label:nth-child(2) > input",
+    "submit": "form > div.login-submit-form > input",
+    "updateButton": "div.resume-sidebar > div > div > div > div:nth-child(2) > div:nth-child(7) > div.bloko-gap.bloko-gap_top > button",
+    "script": "div.resume-sidebar > div > div > div > div:nth-child(2) > div:nth-child(7) > div.bloko-gap.bloko-gap_top > button > script"
+  }
+}

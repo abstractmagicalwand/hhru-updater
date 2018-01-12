@@ -1,0 +1,15 @@
+{
+  "name": "hhru-updater",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "abstractmagicalwand <abstractmagicalwand@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "config": "^1.29.0",
+    "puppeteer": "^0.13.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
